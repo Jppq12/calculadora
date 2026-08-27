@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        Calculadora
+    </header>
+
+    <main>
+        <section class="calculadora">
+            <div id="tela">0</div>
+            <button id="sinais" onclick="addsin('+')">+</button>
+            <button id="sinais" onclick="addsin('-')">-</button>
+            <button id="sinais" onclick="addsin('*')">x</button>
+            <button id="sinais" onclick="addsin('÷')">÷</button>
+
+            <button onclick="addnum(7)">7</button>
+            <button onclick="addnum(8)">8</button>
+            <button onclick="addnum(9)">9</button>
+            <button onclick="addnum(4)">4</button>
+            <button onclick="addnum(5)">5</button>
+            <button onclick="addnum(6)">6</button>
+            <button onclick="addnum(1)">1</button>
+            <button onclick="addnum(2)">2</button>
+            <button onclick="addnum(3)">3</button>
+            <button onclick="addponto()">.</button>
+            <button onclick="addnum(0)">0</button>
+            <button id="limpar" onclick="limpar()">C</button>
+            
+            <button id="igual" onclick="calcular()">=</button>
+            
+        </section>
+    </main>
+    <script src="calc.js"></script>
+</body>
+</html>
