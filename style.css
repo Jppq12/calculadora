@@ -78,10 +78,10 @@ button#limpar {
 
 
 @media (max-width: 768px) {
-    
-
+  
     main {
-        grid-template-columns: auto 450px auto;
+        grid-template-columns: auto 350px auto;
+        height: 100vw;
     }
 }
 
