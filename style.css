@@ -81,7 +81,7 @@ button#limpar {
   
     main {
         grid-template-columns: auto 350px auto;
-        height: 100vw;
+        height: 450px;
     }
 }
 
